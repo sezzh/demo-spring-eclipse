@@ -12,6 +12,11 @@ public class WarController {
     public String get() {
         return "Hola mundo :D";
     }
+    
+    @RequestMapping(value = "/holi", method = RequestMethod.GET)
+    public String getHoli() {
+    	return "Holi estamos en pruebas :)";
+    }
 }
 
 
